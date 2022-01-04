@@ -1,5 +1,5 @@
 import App from './app';
-
+import './less/styles.less';
 
 class H1Element {
   private content: string;
@@ -31,3 +31,4 @@ const h1Element = new H1Element('test 1 2 3');
 
 document.getElementById('app').appendChild(h1Element.get());
 
+document.querySelector('body').classList.add('styles');
