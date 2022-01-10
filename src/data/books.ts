@@ -1,3 +1,8 @@
+// {
+//   title: 'The Colour of Magic',
+//   author: 'Terry Pratchett',
+//   published: 'November 24, 1983',
+// },
 const bookData = [
   {
     author: 'Brandon Sanderson',
@@ -8,7 +13,8 @@ const bookData = [
     },
     isbn13: '9781473212640',
     read: true,
-    reading: false
+    reading: false,
+    published: '',
   },
   {
     author: 'Brandon Sanderson',
@@ -19,7 +25,8 @@ const bookData = [
     },
     isbn13: '9780765326355',
     read: false,
-    reading: true
+    reading: true,
+    published: '',
   },
   {
     author: 'Brandon Sanderson',
@@ -30,7 +37,8 @@ const bookData = [
     },
     isbn13: '9781473225015',
     read: true,
-    reading: false
+    reading: false,
+    published: '',
   },
   {
     author: 'Douglas Adams',
@@ -41,7 +49,8 @@ const bookData = [
     },
     isbn13: '9781529034530',
     read: true,
-    reading: false
+    reading: false,
+    published: '',
   },
   {
     author: 'Douglas Adams',
@@ -52,7 +61,8 @@ const bookData = [
     },
     isbn13: '9781529034547',
     read: false,
-    reading: true
+    reading: true,
+    published: '',
   },
   {
     author: 'Terry Pratchett',
@@ -63,7 +73,8 @@ const bookData = [
     },
     isbn13: '9780061020704',
     read: true,
-    reading: false
+    reading: false,
+    published: '',
   },
   {
     author: 'Suzanne Collins',
@@ -74,9 +85,9 @@ const bookData = [
     },
     isbn13: '9781338635171',
     read: true,
-    reading: false
+    reading: false,
+    published: '',
   },
-  // { author: '', title: '', isbn13: '', read: true, reading: false },
 ];
 
 export default bookData;
