@@ -2,8 +2,8 @@ import bookData from "./data/books";
 const apiUrl = 'https://covers.openlibrary.org/b';
 
 function fillBookShelves() {
-  fillBooks('read-bookshelve');
-  fillCurrentlyReadingBooks('currently-reading-bookshelve');
+  // fillBooks('read-bookshelve');
+  // fillCurrentlyReadingBooks('currently-reading-bookshelve');
 }
 
 function fillBooks(shelveName: string) {

@@ -10,6 +10,34 @@
     <div class="wrapper">
         <h2><strong>My Favorite Games<span>( 6 )</span></strong></h2>
       <div class="cards">
+        <!--Start of Modal -->
+        <div class="modal">
+          <input id="modal__trigger" type="checkbox" />
+          <label for="modal__trigger">
+            <div class="cards">
+              <figure class="card">
+                <img src="https://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft-285x380.jpg" />
+                <figcaption>World of Warcraft</figcaption>
+              </figure>
+            </div>
+          </label>
+          <div class="modal__overlay" role="dialog" aria-labelledby="modal__title" aria-describedby="modal_desc">
+              <div class="modal__wrap">
+                  <label for="modal__trigger">&#10006;</label>
+                  <h2 id="modal__title">World of Warcraft</h2>
+                  <div>
+                    <div class="cards">
+                      <figure class="card">
+                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft-285x380.jpg" />
+                        <figcaption>World of Warcraft</figcaption>
+                      </figure>
+                    </div>
+                    <p id="modal__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet elit. Phasellus dignissim purus vitae urna cursus, quis congue ligula tristique. Ut nec blandit risus. Donec at orci ut justo venenatis viverra. Suspendisse in volutpat lacus. In enim est, dapibus eget ipsum sed, suscipit ultrices diam.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!--End of Modal -->
         <figure class="card">
           <img src="https://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft-285x380.jpg" />
           <figcaption>World of Warcraft</figcaption>
@@ -43,11 +71,14 @@
         </a>
         https://codepen.io/davidicus/pen/ZYjoVO
       </div>
-    <h2><strong>Currently Reading</strong></h2>
+      <h2><strong>Currently Reading</strong></h2>
       <div class="cards" id="currently-reading-bookshelve"></div>
 
       <h2><strong>Read Books</strong></h2>
       <div class="cards" id="read-bookshelve"></div>
+
+      <h2><strong>Not Read Books</strong></h2>
+      <div class="cards" id="not-read-bookshelve"></div>
     </div>
     <script src="bundle.js"></script>
 </body>

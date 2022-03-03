@@ -48,8 +48,8 @@ const bookData = [
       value: '9781529034530'
     },
     isbn13: '9781529034530',
-    read: true,
-    reading: false,
+    read: false,
+    reading: true,
     published: '',
   },
   {
@@ -60,8 +60,8 @@ const bookData = [
       value: '8569238'
     },
     isbn13: '9781529034547',
-    read: false,
-    reading: true,
+    read: true,
+    reading: false,
     published: '',
   },
   {

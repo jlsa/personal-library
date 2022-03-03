@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
+
 @bgColor: #24282f;
 @fontColor: #ccc;
-@fontFamily: 'Alegreya Sans';
+// @fontFamily: 'Alegreya Sans';
+@fontFamily: 'Stint Ultra Expanded', cursive;
 
 body {
   background-color: @bgColor;
@@ -80,6 +83,8 @@ h2 {
   padding-left: 25px;
   color: #ccc;
   margin: 0;
+  font-family: "Syncopate", sans-serif;
+  font-weight: 900;
 }
 
 h2 strong {
@@ -94,7 +99,7 @@ h2 span {
   margin-left: 10px;
 }
 
-h2:after, footer::before {
+.wrapper > h2:after {
   content: '';
   z-index: 1;
   bottom: 50%;
@@ -135,7 +140,7 @@ h2:after, footer::before {
   right: 0;
   padding: 20px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 12pt;
   background: rgba(0.0, 1.0, 1.0, 0.65);
   color: #fff;
   transform: translateY(100%);

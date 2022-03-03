@@ -3,9 +3,11 @@ import ShelveType from "./enums/ShelveType";
 
 class Shelve {
   private items: ShelveItem[];
+  private name: string;
 
-  constructor(type: ShelveType) {
+  constructor(type: ShelveType, name: string) {
     this.items = [];
+    this.name = name;
   }
 
   add(shelveItem: ShelveItem): Shelve { 
@@ -15,6 +17,15 @@ class Shelve {
 
   getItems(): ShelveItem[] {
     return this.items;
+  }
+
+  render() {
+    const shelve = document.getElementById(this.name);
+    const items = [];
+    this.getItems().forEach(shelveItem => {
+      const figure = shelveItem.render();
+      shelve.appendChild(figure);
+    });
   }
 }
 

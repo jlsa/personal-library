@@ -122,3 +122,9 @@ Batman Hush
 
 # Books
 By Terry Pratchett
+
+# Games
+- Hype: The Time Quest (Publisher, release date, platforms, plot, ratings)
+  - https://gamefabrique.com/games/hype-the-time-quest/
+  - https://www.myabandonware.com/game/hype-the-time-quest-a5t
+- Grand Theft Auto 1, 2, 3, vice city
