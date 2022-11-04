@@ -36,4 +36,4 @@ currentlyReadingShelve.render();
 // readShelve.add(new ShelveItem('lala'));
 // document.querySelector('body').classList.add('styles');
 
-fillBookShelves();
+// fillBookShelves();
